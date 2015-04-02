@@ -40,9 +40,13 @@
 	position: relative;
 	margin: 10px auto;
 	width: 500px;
-	height: 20px;
+	height: 23px;
 	border-color: blue;
 	border-width: 1px;
+	background: url("img/mic.gif") no-repeat;
+	background-size: 14px 19px;
+	background-position: 481px;
+
 }
 
 .buttons {
