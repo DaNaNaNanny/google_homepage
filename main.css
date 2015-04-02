@@ -1,0 +1,71 @@
+
+.navbar {
+	height: 30px;
+	width: 100%;
+}	
+
+
+.navbar ul li {
+	list-style-type: none;
+	position: relative;
+	float: right;
+	line-height: 30px;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	display: inline;
+	width: 50px;
+	left: -20px;
+
+}
+
+.navbar a, img {
+   text-decoration: none;
+   color: rgb(114, 114, 114);
+	vertical-align: middle;
+}
+.navbar a:hover {
+   text-decoration: underline;	
+}
+
+
+
+.logo img{
+	display: block;
+	position: relative;
+	margin: 150px auto 0 auto;
+}
+
+.search {
+	display: block;
+	position: relative;
+	margin: 10px auto;
+	width: 500px;
+	height: 20px;
+	border-color: blue;
+	border-width: 1px;
+}
+
+.buttons {
+	display: block;
+	width: 264px;
+	margin: 0 auto;
+
+}
+
+.button {
+	
+	text-align: center;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 11px;
+	margin: 0 2px 0 2px;
+	padding: 0 8px;
+	height: 27px;
+	width: 120px;
+	top: 48px;
+}
+
+.search:hover {
+	border-width: 2px;
+}
+
